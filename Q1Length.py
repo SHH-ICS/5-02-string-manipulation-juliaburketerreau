@@ -3,6 +3,7 @@
 redo = True
 while redo:
   word = str(input( " What is your word? " ))
+  print("Type 'quit' if you want to exit")
   if word == "quit":
     break
   else:
